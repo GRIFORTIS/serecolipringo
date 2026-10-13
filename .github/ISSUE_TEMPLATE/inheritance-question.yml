@@ -1,0 +1,79 @@
+name: Inheritance question
+description: Propose one question about transfer after death or incapacity.
+title: "[Inheritance] "
+labels:
+  - "domain: inheritance"
+  - "status: draft"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose one factual Inheritance question. Use only fictional examples—never publish real wallet or recovery details.
+
+  - type: input
+    id: factor
+    attributes:
+      label: Factor
+      description: What single Inheritance factor does this question measure?
+      placeholder: Instructions for a non-expert heir
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: Ask about a fact of the setup, not how safe someone feels.
+    validations:
+      required: true
+
+  - type: textarea
+    id: answers
+    attributes:
+      label: Answer choices
+      description: List answers from worst to best as “score — answer.” Include “0 — I don't know.”
+      placeholder: |
+        0 — I don't know
+        0 — Worst practical answer
+        5 — Best practical answer
+    validations:
+      required: true
+
+  - type: dropdown
+    id: breaker
+    attributes:
+      label: Breaker or cap?
+      description: Does any answer cap the Inheritance score regardless of other answers?
+      options: ["No", "Yes", "Unsure—needs critique"]
+    validations:
+      required: true
+
+  - type: textarea
+    id: breaker_details
+    attributes:
+      label: Breaker or cap details
+      description: If applicable, identify the answer, cap, and reason.
+
+  - type: textarea
+    id: cross_effects
+    attributes:
+      label: Cross-effects
+      description: List effects on other domains as -1, 0, or +1 and explain why.
+    validations:
+      required: true
+
+  - type: textarea
+    id: persona_test
+    attributes:
+      label: Fictional persona test
+      description: Apply the question to a fictional setup and state the expected answer and score.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: This issue contains no real seed material or sensitive wallet details.
+          required: true

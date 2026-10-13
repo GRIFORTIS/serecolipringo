@@ -4,6 +4,18 @@ Bitcoin self-custody is not one problem. A sound setup must answer seven distinc
 
 **SeReCoLiPrInGo** is a framework for evaluating those tradeoffs across **Se**curity, **Re**silience, **Co**ercion, **Li**quidity, **Pr**ivacy, **In**heritance, and **Go**vernance. No setup maximizes all seven; the goal is to make the compromises explicit and appropriate for each pool of funds. For the broader rationale, read [Self-Custody Is Not One Problem. It's Seven. Meet the SeReCoLiPrInGo.](https://grifortis.com/blogs/articles/self-custody-is-not-one-problem-its-seven-meet-the-serecolipringo)
 
+## Workshop
+
+Seven tables—one per domain—build and critique the questionnaire through GitHub issues. Each proposed question gets its own issue, created with a domain-specific form. The room revises the strongest proposals, marks them accepted, and closes overlapping alternatives as duplicates.
+
+1. Read the [workshop instructions](WORKSHOP.md).
+2. Find your table's domain anchor in the [issue list](https://github.com/GRIFORTIS/serecolipringo/issues).
+3. [Propose a question](https://github.com/GRIFORTIS/serecolipringo/issues/new/choose) using the matching domain form.
+4. Critique another table's questions using the comment format in the workshop instructions.
+
+> [!CAUTION]
+> Use only fictional examples. Never publish real seed words, passphrases, wallet addresses, balances, identities, storage locations, recovery instructions, or details of your own setup.
+
 The seven domains at a glance:
 
 - **Security:** Prevent unauthorized access and spending.
