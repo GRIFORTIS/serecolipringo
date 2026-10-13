@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Workshop instructions
+    url: https://github.com/GRIFORTIS/serecolipringo/blob/main/WORKSHOP.md
+    about: Read the workflow, safety rule, and critique format before submitting a question.
